@@ -240,7 +240,7 @@ function esVocal(letra){
   var vocales = ('a', 'e', 'i', 'o', 'u')
   if (letra.length> 1) {
     return 'Dato incorrecto'  }
-    else if (vocales = letra) {
+    else if (letra = vocales) {
       return 'Es vocal'}
       else {
         return 'Dato incorrecto'}
